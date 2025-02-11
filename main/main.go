@@ -20,8 +20,7 @@ var score Score = Score{}
 
 func main() {
 	dataLocation, timeLimit := quizzSetup.GetQuizzSetup()
-	dataHandler.SetFilePath(dataLocation)
-	fmt.Println(dataHandler.GetFilePath())
+	dataHandler.SetDataLocation(dataLocation)
 	err := dataHandler.GetData()
 	check(err)
 	records := dataHandler.GetRecords()

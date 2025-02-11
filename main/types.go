@@ -6,7 +6,7 @@ type QuizzSetupInterface interface {
 
 type DataHanddlerInterface interface {
 	GetData() error
-	SetFilePath(filepath string)
-	GetFilePath() string
+	SetDataLocation(filepath string)
+	GetDataLocation() string
 	GetRecords() [][]string
 }

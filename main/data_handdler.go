@@ -25,11 +25,11 @@ func (c *CSVDataHanddler) GetData() error {
 	return nil
 }
 
-func (c *CSVDataHanddler) SetFilePath(filepath string) {
-	c.FilePath = filepath
+func (c *CSVDataHanddler) SetDataLocation(dataLocation string) {
+	c.FilePath = dataLocation
 }
 
-func (c *CSVDataHanddler) GetFilePath() string {
+func (c *CSVDataHanddler) GetDataLocation() string {
 	return c.FilePath
 }
 
