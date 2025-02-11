@@ -1,2 +1,2 @@
 run:
-	go build -o=./build/quizz-go ./src/. && ./build/quizz-go
+	go build -o=./build/quizz-go ./main/. && ./build/quizz-go
